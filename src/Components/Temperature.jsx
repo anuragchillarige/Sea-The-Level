@@ -14,7 +14,7 @@ function Temperature() {
                         <p class="image-description">
                             There are two graphs. The first shows the global temperature changes over time from 1880 to the present.
                             Clearly, the temperature is increasing by a greater amount each year which is a cause for concern. The second graph
-                            shows the predictions for the global temperature changes up to the year 2050. By the year 2050, the model forecasts 
+                            shows the predictions calculated using time series analysis in machine learning for the global temperature changes up to the year 2050. By the year 2050, the model forecasts 
                             that the world temperature will increase by 1.5 degrees Celsius.
                         </p>
                     </div>

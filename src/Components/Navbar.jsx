@@ -54,8 +54,10 @@ const Navbar = () => {
                 </div>
                 <div className="navButton">
                     <a href="#sea">Sea Levels</a>
-                    
                 </div>
+                <Link className="navButton" to="/Predict">
+                    Predict
+                </Link>
             </div>
             <nav className="navBar">
                 <button onClick={handleToggle}>
@@ -83,6 +85,9 @@ const Navbar = () => {
                             <a href="#sea" className="navB" onClick={closeMenu}>
                                 Sea Levels
                             </a>
+                            <Link className="navB" to="/Predict">
+                                Predict
+                            </Link>
                         </div>
                         <div  className='container2'>
                         </div>

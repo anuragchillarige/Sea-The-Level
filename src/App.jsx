@@ -8,6 +8,7 @@ import ScrollToTop from './scrollToTop';
 
 import Home from './Pages/Home';
 import Main from './Pages/Main';
+import Predict from './Pages/Predict'
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/Main" component={Main} />
+                        <Route exact path="/Predict" component={Predict} />
                     </Switch>
                 </Fragment>
             </Router>
